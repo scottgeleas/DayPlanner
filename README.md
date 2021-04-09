@@ -1,11 +1,12 @@
 # Day Planner
 
  ## Description 
+ This is an application to help you plan your day. The hour boxes are colored 
 
 
 
  ## Getting Started:
-The page is live at .
+The page is live at https://scottgeleas.github.io/DayPlanner/.
 
  ## Prerequisites:
 If you want to edit this web page you must have a Github account,    
@@ -13,7 +14,7 @@ and have also downloaded Visual Studio Code.
 
 - Create a Github account here: [Github](https://github.com/)
 - Download Visual Studio here: [Visual Studio](https://code.visualstudio.com/download/)
-- Repository link: 
+- Repository link: [Day Planner](https://github.com/scottgeleas/DayPlanner/)
 
  ### Authors:
 ```

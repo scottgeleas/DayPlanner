@@ -27,12 +27,25 @@ timeBlocks.each(function () {
     }
 });
 
+// create an onclick event for the saveBtn
 let saveBtn = $(".saveBtn")
 saveBtn.click(function() {
     let description = $(this).siblings(".description").val();
-    let id = $(this).parents(".time-block").data("time");
+
+    // let id = $(this).parents(".time-block").data("time");
+    
+    let id = $(this).parent(".time-block").data("time");
+    // let id = $(this).parent().attr("id")
+
     localStorage.setItem(id , description);
 });
 
 
-// create an onclick event for the saveBtn
+function renderPage() {
+
+     for (let i = 1; i < 16; i++) {
+        $("#row" +i+" .description").val(localStorage.getItem(i+5))
+     }
+//    $("#row1 .description").val(localStorage.getItem(6));
+};
+renderPage()
